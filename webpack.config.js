@@ -42,9 +42,7 @@ let config = {
             },
             {
                 test: /\.svg$/i,
-                issuer: {
-                    test: /\.scss$/i,
-                },
+                issuer: /\.scss$/i,
                 loader: 'url-loader',
             },
             {
